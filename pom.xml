@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.easyqrpay.backend</groupId>
-	<artifactId>DTOModule</artifactId>
+	<artifactId>dtoModule</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>DTOModule</name>
 	<description>DTO Module for easyqrpay project</description>
