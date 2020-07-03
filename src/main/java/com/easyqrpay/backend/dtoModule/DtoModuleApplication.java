@@ -1,4 +1,4 @@
-package com.easyqrpay.backend.DTOModule;
+package com.easyqrpay.backend.dtoModule;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

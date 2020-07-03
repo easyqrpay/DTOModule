@@ -11,7 +11,7 @@
 	<groupId>com.easyqrpay.backend</groupId>
 	<artifactId>dtoModule</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>DTOModule</name>
+	<name>dtoModule</name>
 	<description>DTO Module for easyqrpay project</description>
 
 	<properties>
