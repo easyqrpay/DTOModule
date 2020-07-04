@@ -1,5 +1,7 @@
 name: Publish package to GitHub Packages
 on:
+  push:
+    branches: [ master ]
   pull_request:
     branches: [ master ]
 jobs:
@@ -11,6 +13,6 @@ jobs:
         with:
           java-version: 14
       - name: Publish package
-        run: mvn -B deploy
+        run: mvn -B deploy --file pom.xml
         env:
           GITHUB_TOKEN: ${{DEPLOYSECRET}}
