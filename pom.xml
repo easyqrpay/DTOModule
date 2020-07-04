@@ -37,4 +37,12 @@
 		</dependency>
 	</dependencies>
 
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>DTO Module</name>
+			<url>https://maven.pkg.github.com/easyqrpay/DTOModule</url>
+		</repository>
+	</distributionManagement>
+
 </project>
