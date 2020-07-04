@@ -1,4 +1,4 @@
-package com.easyqrpay.backend.dtoModule.dto.consumer;
+package com.easyqrpay.modules.dtoModule.dto.consumer;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;
