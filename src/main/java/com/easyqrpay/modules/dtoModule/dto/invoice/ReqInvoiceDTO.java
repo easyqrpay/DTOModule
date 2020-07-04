@@ -1,4 +1,4 @@
-package com.easyqrpay.backend.dtoModule.dto.invoice;
+package com.easyqrpay.modules.dtoModule.dto.invoice;
 
 import com.fasterxml.jackson.annotation.JsonAlias;
 import lombok.Data;
