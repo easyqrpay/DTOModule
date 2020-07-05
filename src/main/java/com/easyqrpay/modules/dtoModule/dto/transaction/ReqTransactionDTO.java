@@ -11,9 +11,16 @@ import java.util.Date;
 @Data
 @NoArgsConstructor
 public class ReqTransactionDTO {
-    private Date from;
-    private Date to;
+    private Long from;
+    private Long to;
     private TransactionStatus status;
-    @JsonIgnore
     private UserType userType;
+
+    public ReqTransactionDTO(Long from, Long to, TransactionStatus transactionStatus, UserType userType) {
+        this.from = from;
+        this.to = to;
+        this.status = transactionStatus;
+        this.userType = userType;
+    }
+
 }
