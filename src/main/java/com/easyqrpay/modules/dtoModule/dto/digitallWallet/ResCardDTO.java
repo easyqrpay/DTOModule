@@ -5,7 +5,7 @@ import lombok.Data;
 
 @Data
 public class ResCardDTO {
-    private Long id;
+    private String token;
     private String title;
     private String to;
     private String cardNumber;
