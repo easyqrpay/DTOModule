@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.easyqrpay.modules</groupId>
-	<artifactId>dtoModule</artifactId>
+	<artifactId>dtomodule</artifactId>
 	<version>0.0.2-SNAPSHOT</version>
 	<name>dtoModule</name>
 	<description>DTO Module for easyqrpay project</description>
